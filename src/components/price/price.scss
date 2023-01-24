@@ -1,0 +1,15 @@
+.price {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+  & :first-child {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  & :last-child {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

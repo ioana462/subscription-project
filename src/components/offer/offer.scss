@@ -1,0 +1,15 @@
+.offer {
+  width: fit-content;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  & :first-child {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  & :last-child {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
